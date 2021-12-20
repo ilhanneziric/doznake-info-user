@@ -1,0 +1,51 @@
+<div class="container-fluid boja">
+    <div class="container">
+
+      <div class="row">
+        <div class="col">
+          <form id="Login" #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+            <div class="pb-3 pt-3"><br/>
+            <label class="lblPitanje" for="tekst">Tekst pitanja:</label>
+            <textarea class="form-control inputic pitanje" id="exampleFormControlTextarea1" rows="3" placeholder="Kako poslati novac u Bosnu?"  name="tekst" ngModel></textarea><br/>
+            <h3>Možete ostaviti email ili telefon ili oboje</h3>
+            <label class="bla" for="email">Email:</label>
+            <input type="text" class="form-control inputic" id="email" placeholder="Email" name="email" ngModel>
+            <label class="bla" for="telefon">Telefon:</label>
+            <input type="text" class="form-control inputic" id="telefon" placeholder="061123456" name="telefon" ngModel>
+            <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Postavi pitanje</button>
+            </div>
+          </form><br/><br/>
+
+        </div>
+
+
+        
+
+
+          <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <h4 class="modal-title">Slanje pitanja</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body">
+            Uspješno ste poslali pitanje.<br/>
+            Odgovor ćete primiti putem SMS-a ili e-mail-a
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">U redu</button>
+            </div>
+  
+      </div>
+    </div>
+  </div>
+    </div>
+</div>

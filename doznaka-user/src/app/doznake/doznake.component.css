@@ -1,0 +1,60 @@
+.boja{
+    background-color: #30c5ff;
+    color: black;
+}
+*{
+    margin:0;
+}
+.mojKontenjer{
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+.naslov{
+    text-align: center;
+}
+.ukratko{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.paragraf{
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .mojKontenjer{
+        margin-left: 5em;
+        margin-right: 5rem;
+    }
+    .ukratko{
+        font-size: 1.5rem;
+    }
+    .paragraf{
+        font-size: 1.3rem;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .mojKontenjer{
+        margin-left: 3em;
+        margin-right: 3rem;
+    }
+    .ukratko{
+        font-size: 1.3rem;
+    }
+    .paragraf{
+        font-size: 1.1rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .mojKontenjer{
+        margin-left: 1em;
+        margin-right: 1rem;
+    }
+    .ukratko{
+        font-size: 1.1rem;
+    }
+    .paragraf{
+        font-size: 0.9rem;
+    }
+  }

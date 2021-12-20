@@ -1,0 +1,55 @@
+.boja{
+    background-color: #f36b74;
+    color: black;
+}
+.objava{
+    border: 5px solid #9c1c3c;
+    background-color: #d31f2bb7;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.objava:hover{
+    border: 5px solid #d31f2bb7;
+    background-color: #9c1c3c;
+    color:wheat;
+    cursor: pointer;
+}
+.views{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.sadrzaj{
+    font-size: 1.1rem;
+}
+.naslov{
+    font-size: 1.4rem;
+}
+.form-control{
+    width: 40rem;
+}
+.podebljaj{
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.7rem;
+    background-color: #fddddd;
+}
+  @media screen and (max-width: 770px) {
+      .form-control{
+          width: 30rem;
+      }
+  }
+  @media screen and (max-width: 550px) {
+    .form-control{
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 330px) {
+    .form-control{
+        width: 15rem;
+    }
+    .podebljaj{
+        font-size: 0.9rem;
+    }
+}

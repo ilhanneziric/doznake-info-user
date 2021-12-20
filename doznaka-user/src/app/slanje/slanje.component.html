@@ -1,0 +1,11 @@
+<div class="container-fluid boja">
+    <div class="container"><br/><br/>
+        <label for="" class="my-2 mx-4 podebljaj">Unesite ključne riječi koje tražite:</label>
+        <input type="text" class="form-control mx-4" placeholder="Traži" [(ngModel)]="filter"><br/>
+        <div class="objava m-4" *ngFor="let o of getSveObjave()" routerLink="/slanje/detaljno" (click) = "posaljiID(o._id, o)">
+            <h4 class="naslov">{{o.naslov}}</h4>
+            <p class="sadrzaj">{{o.tekst.substring(0,300)}}...</p><br/>
+            <p class="views">Pregledano: {{o.viewCounter}}</p>
+        </div>
+    </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>

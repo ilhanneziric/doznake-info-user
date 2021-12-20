@@ -1,0 +1,74 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.naslov{
+    background-color: violet;
+    margin: 0;
+}
+.dugme{
+    color:black;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.doznakebtn{
+    background-color: #30c5ff;
+}
+.slanjebtn{
+    background-color: #f36b74;
+}
+.primanjebtn{
+    background-color: #71f79f;
+}
+.faqbtn{
+    background-color: #c7ede4;
+}
+.postavipbtn{
+    background-color: #fff07c;
+}
+
+.doznakebtn:hover{
+    background-color: #2191bd;
+}
+.slanjebtn:hover{
+    background-color: #a74c52;
+}
+.primanjebtn:hover{
+    background-color: #4ca56b;
+}
+.faqbtn:hover{
+    background-color: #798d88;
+}
+.postavipbtn:hover{
+    background-color: #aca154;
+}
+
+.form-select{
+    display: inline;
+    width: 8em;
+    float: right;
+}
+.flag{
+    width: 10px;
+}
+
+@media screen and (max-width: 415px) {
+    .dugme{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .dugme{
+        font-size: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    .dugme{
+        font-size: 0.6rem;
+    }
+}

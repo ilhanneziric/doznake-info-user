@@ -1,0 +1,71 @@
+.boja{
+    background-color: #fff07c;
+    color: black;
+}
+
+.form-control{
+    width: 20rem;
+    margin-bottom: 20px;
+}
+
+.pitanje{
+    width: 40rem;
+}
+
+input{
+    font-size: 2rem;
+    background-color: #fff9c7;
+}
+textarea{
+    font-size: 2rem;
+    background-color: #fff9c7;   
+}
+
+
+.lblPitanje{
+    font-size: 1.6rem;
+}
+.bla{
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 800px) {
+    input{
+        font-size: 1.5rem;
+    }
+    textarea{
+        font-size: 1.5rem; 
+    }
+    
+    .pitanje{
+        width: 30rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    input{
+        font-size: 1.1rem;
+    }
+    textarea{
+        font-size: 1.1rem; 
+    }
+    .pitanje{
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 330px) {
+    input{
+        font-size: 0.8rem;
+    }
+    textarea{
+        font-size: 0.8rem; 
+    }
+    .pitanje{
+        width: 15rem;
+    }
+    .form-control{
+        width: 15rem;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
+}
